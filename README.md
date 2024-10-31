@@ -4,6 +4,11 @@
 
 ---
 
+ToC
+- [code2text](#code2text)
+
+---
+
 ## code2text
 
 > Sometimes you code on your own, but sometimes you just ask others (e.g. agents) to code.
