@@ -1,0 +1,20 @@
+[
+    {
+        "Code": "import os\n\nprint(os.environ)",
+        "Source_file": "./code_snippets/os.py",
+        "Text_summary": "Create and execute a Python script that prints the current environment variables to the console.",
+        "Text_details": "Create and execute a Python script that retrieves and displays the current environment variables.\n\n1. Import the `os` module, which provides a way to interact with the operating system.\n2. Use the `os.environ` attribute to access the current environment variables. This attribute returns a dictionary-like object containing the environment variables.\n3. Print the environment variables to the console by passing `os.environ` to the `print` function."
+    },
+    {
+        "Code": "print('Hello World! by aq')",
+        "Source_file": "./code_snippets/helloworld.py",
+        "Text_summary": "Create and execute a Python script that prints the message \"Hello World! by aq\" to the console.",
+        "Text_details": "Create and execute a Python script that outputs a specific message to the console.\n\n1. Use the `print` function to display the message \"Hello World! by aq\" on the console."
+    },
+    {
+        "Code": "import matplotlib.pyplot as plt\n\nx = [1, 2, 3, 4, 5]\ny = [2, 3, 5, 7, 11]\n\nplt.figure(figsize=(8, 5))\nplt.plot(x, y, marker='o', color='b', label=\"Sample Data\")\n\nplt.title(\"Simple Line Plot Example\")\nplt.xlabel(\"X-axis\")\nplt.ylabel(\"Y-axis\")\n\nplt.legend()\nplt.grid(True)\nplt.show()",
+        "Source_file": "./code_snippets/plot.py",
+        "Text_summary": "Create and execute a Python script that generates a simple line plot using the matplotlib library. The plot displays the data points (1, 2), (2, 3), (3, 5), (4, 7), and (5, 11) with blue markers and a line connecting them. The plot includes a title \"Simple Line Plot Example\", labels for the X-axis and Y-axis, a legend, and a grid. The figure size is set to 8 by 5 inches.",
+        "Text_details": "Create and execute a Python script that visualizes a set of data points using a line plot with specific styling and annotations.\n\n1. Import the `pyplot` module from the `matplotlib` library, which is used for creating static, interactive, and animated visualizations in Python.\n\n2. Define two lists, `x` and `y`, to represent the data points to be plotted:\n   a. Set `x` to the list `[1, 2, 3, 4, 5]`, representing the X-axis values.\n   b. Set `y` to the list `[2, 3, 5, 7, 11]`, representing the Y-axis values.\n\n3. Create a new figure for the plot with a specified size:\n   a. Use `plt.figure` with the `figsize` parameter set to `(8, 5)` to define the dimensions of the plot as 8 inches wide and 5 inches tall.\n\n4. Plot the data points on the figure:\n   a. Use `plt.plot` to create a line plot with the `x` and `y` data.\n   b. Set the `marker` parameter to `'o'` to display circular markers at each data point.\n   c. Set the `color` parameter to `'b'` to color the line and markers blue.\n   d. Set the `label` parameter to `\"Sample Data\"` to label the data series.\n\n5. Add a title and labels to the plot:\n   a. Use `plt.title` to set the plot title to `\"Simple Line Plot Example\"`.\n   b. Use `plt.xlabel` to label the X-axis as `\"X-axis\"`.\n   c. Use `plt.ylabel` to label the Y-axis as `\"Y-axis\"`.\n\n6. Add a legend to the plot:\n   a. Use `plt.legend` to display the legend, which shows the label for the data series.\n\n7. Enable the grid on the plot:\n   a. Use `plt.grid` with the parameter `True` to display a grid on the plot for better readability.\n\n8. Display the plot:\n   a. Use `plt.show` to render and display the plot on the screen."
+    }
+]
