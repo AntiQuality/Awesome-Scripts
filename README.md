@@ -4,8 +4,8 @@
 
 ---
 
-ToC
-- [code2text](#code2text)
+## ToC
+- [code2text](#code2text): Turn your code snippets into text instruction in natural language.
 
 ---
 
